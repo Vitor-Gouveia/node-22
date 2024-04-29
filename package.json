@@ -1,0 +1,13 @@
+{
+  "name": "node-22",
+  "version": "1.0.0",
+  "description": "Node.js support between ESM and CJS illustrated.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --experimental-require-module index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
