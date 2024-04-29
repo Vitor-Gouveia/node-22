@@ -1,3 +1,4 @@
 import { assert } from "chai"
+import fixture from "./util.js"
 
-assert.equal(1, 1)
+assert.equal(fixture, 1)
