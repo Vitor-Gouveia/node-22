@@ -5,9 +5,11 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
+    "test": "node --test",
     "start": "node --experimental-require-module index.js"
   },
   "dependencies": {
+    "chai": "^5.1.0",
     "express": "^4.19.2"
   }
 }
